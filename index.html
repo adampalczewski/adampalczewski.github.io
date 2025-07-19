@@ -4,49 +4,65 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Adam Palczewski | Media & Digital Leader</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --primary: #00274d;
+      --accent: #00aaff;
+      --bg: #f5f7fa;
+      --text: #333;
+    }
     body {
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
       margin: 0;
       padding: 0;
-      background: #f4f4f4;
-      color: #333;
+      color: var(--text);
     }
     header {
-      background: #222;
+      background: var(--primary);
       color: #fff;
-      padding: 2rem 1rem;
+      padding: 4rem 1rem 2rem;
       text-align: center;
     }
     header h1 {
+      margin: 0 0 0.5rem;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
       margin: 0;
-      font-size: 2rem;
-    }
-    nav {
-      text-align: center;
-      margin: 1rem 0;
-    }
-    nav a {
-      margin: 0 1rem;
-      text-decoration: none;
-      color: #0073e6;
     }
     main {
-      max-width: 800px;
+      max-width: 900px;
       margin: 2rem auto;
-      padding: 1rem;
+      padding: 2rem;
       background: #fff;
-      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      border-radius: 10px;
     }
-    section {
-      margin-bottom: 2rem;
+    section h2 {
+      color: var(--primary);
+      font-size: 1.8rem;
+      margin-top: 0;
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 0.75rem;
+      line-height: 1.6;
     }
     footer {
       text-align: center;
-      padding: 2rem 1rem;
-      background: #222;
-      color: #aaa;
+      padding: 2rem;
+      background: var(--primary);
+      color: #ccc;
+      margin-top: 4rem;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
     }
   </style>
 </head>
@@ -56,38 +72,29 @@
     <p>Media, Retail & Digital Marketing Leader</p>
   </header>
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#experience">Experience</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
   <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I'm a senior media and retail marketing professional with extensive experience across eCommerce, Amazon, retail media, and digital transformation. I've led strategic roles at companies like Philips, OMD, Dentsu, and TJX Europe, driving measurable outcomes across the EMEA region.</p>
-    </section>
+    <section>
+      <h2>My Professional Journey</h2>
+      <p>I’m a strategic and hands-on leader in media, retail, and digital marketing with 20+ years of international experience across leading brands, agencies, and ad-tech firms. I specialise in building integrated media and eCommerce strategies that drive performance, brand equity, and retail media innovation.</p>
 
-    <section id="experience">
-      <h2>Experience Highlights</h2>
+      <h2>Career Highlights</h2>
       <ul>
-        <li><strong>OMD EMEA</strong> – Retail Media & eCommerce Director</li>
-        <li><strong>Dentsu</strong> – Head of Retail Media EMEA</li>
-        <li><strong>Philips</strong> – Global Retail Media Lead</li>
-        <li><strong>TJX Europe</strong> – AVP Head of Media Europe</li>
-        <li><strong>Lemma, Smartly.io, Publicis, Mindshare</strong> – Leadership roles in media, tech, and performance marketing</li>
+        <li><strong>OMD EMEA</strong> – Director of Retail Media & eCommerce (2025–present)<br>Led connected commerce initiatives across Philips and PepsiCo, integrating retail media into holistic media strategies and driving measurable growth.</li>
+        <li><strong>Dentsu</strong> – Head of Retail Media EMEA<br>Developed Dentsu’s EMEA retail media proposition, GTM strategy, and supported retailer RMN development across Europe.</li>
+        <li><strong>TJX Europe</strong> – AVP Head of Media Europe<br>Oversaw brand and eCommerce media budgets across UK and DE; launched new digital capabilities during a period of growth and transformation.</li>
+        <li><strong>Philips</strong> – Global Retail Media Lead<br>Owned global Amazon media strategy and budget, scaling digital commerce performance across markets through innovation, governance, and capability building.</li>
+        <li><strong>Smartly.io & Lemma</strong> – Commercial and services leadership roles across EMEA and APAC; drove partnerships, DOOH, and programmatic innovation.</li>
+        <li><strong>Agency Foundations</strong> – Held senior roles at OMD, Mindshare, Publicis, and Havas — delivering strategic media transformations for global brands.</li>
       </ul>
-    </section>
 
-    <section id="contact">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:palczewski1@hotmail.com">palczewski1@hotmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/adampalczewski" target="_blank">linkedin.com/in/adampalczewski</a></p>
+      <p>Email: <a href="mailto:palczewski1@hotmail.com">palczewski1@hotmail.com</a><br>
+      LinkedIn: <a href="https://www.linkedin.com/in/adampalczewski" target="_blank">linkedin.com/in/adampalczewski</a></p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Adam Palczewski. All rights reserved.</p>
+    <p>&copy; 2025 Adam Palczewski. Built for GitHub Pages.</p>
   </footer>
 </body>
 </html>
