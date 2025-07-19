@@ -1,6 +1,93 @@
-Retail Media & Digital Marketing Consulting...for retailers, brands and ad-tech companies
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adam Palczewski | Media & Digital Leader</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      text-align: center;
+      margin: 1rem 0;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #0073e6;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: #fff;
+      border-radius: 8px;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #222;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Adam Palczewski</h1>
+    <p>Media, Retail & Digital Marketing Leader</p>
+  </header>
 
-Adam Palczewski has held senior leadership roles across brand, ad-tech, and agency environments.
-On the brand side, he led global retail media at Philips and managed eCommerce and media activation at TJX and Very Group. In ad-tech, he held senior roles at Google DoubleClick, Smartly.io and Lemma Media. Adam’s agency experience spans leading retail media and performance capabilities at Mindshare, Publicis, Havas, and Dentsu, managing key accounts like Credit Suisse, Unilever, and Ford Europe. He brings a strong track record in digital transformation, global strategy, and strategic partnerships with platforms like Google, Meta and Amazon.
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-Connect with me on LinkedIn or DM info@adampalczewski or call me @ +44 739 228 0425
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm a senior media and retail marketing professional with extensive experience across eCommerce, Amazon, retail media, and digital transformation. I've led strategic roles at companies like Philips, OMD, Dentsu, and TJX Europe, driving measurable outcomes across the EMEA region.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience Highlights</h2>
+      <ul>
+        <li><strong>OMD EMEA</strong> – Retail Media & eCommerce Director</li>
+        <li><strong>Dentsu</strong> – Head of Retail Media EMEA</li>
+        <li><strong>Philips</strong> – Global Retail Media Lead</li>
+        <li><strong>TJX Europe</strong> – AVP Head of Media Europe</li>
+        <li><strong>Lemma, Smartly.io, Publicis, Mindshare</strong> – Leadership roles in media, tech, and performance marketing</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:palczewski1@hotmail.com">palczewski1@hotmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/adampalczewski" target="_blank">linkedin.com/in/adampalczewski</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Adam Palczewski. All rights reserved.</p>
+  </footer>
+</body>
+</html>
